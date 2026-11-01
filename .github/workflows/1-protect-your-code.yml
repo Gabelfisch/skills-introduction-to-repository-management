@@ -6,6 +6,8 @@ on:
       - prepare-to-collaborate
     paths:
       - ".gitignore"
+      
+  workflow_dispatch:
 
 permissions:
   contents: write
