@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/ISSUE_TEMPLATE/**"
       - "CODE_OF_CONDUCT.md"
+  workflow_dispatch:
 
 permissions:
   contents: read
